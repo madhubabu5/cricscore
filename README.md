@@ -1,6 +1,6 @@
 # clcik below link to see the project
 
-https://cranky-golick-71fb61.netlify.app/
+https://cricscore.netlify.app
 
 # Getting Started with Create React App
 
