@@ -1,0 +1,54 @@
+
+.custom-card {
+    text-align: center;
+    margin: 20px;
+    width: 30%;
+    height: 300px;
+    color:#5B2C6F;
+    background-color: #DDBBEB;
+}
+
+.match-title {
+    margin: 5px;
+    text-align: center;
+}
+
+.details{
+    text-align: center;
+    color: red;
+}
+
+.h1-header{
+    background-color:#A569BD; 
+    padding: 16px 32px;
+    box-shadow:  0 0 10px 0 rgba(0,0,0,0.3);
+    text-align: center;
+    color:white;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.button{
+    background-color: #a44dc7;
+    border-radius: 7px;
+    border: 2px solid #5B2C6F;
+    color: white;
+}
+
+.button.disabled{
+        opacity: 0.6;
+        cursor: not-allowed;
+        pointer-events: none;
+        background-color:#A569BD;
+}
+
+.result-title {
+    margin-left: 125px;
+    font-size: 2rem;
+}
+
+.modal-body {
+    text-align: center;
+}

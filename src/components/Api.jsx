@@ -1,6 +1,5 @@
 const API_KEY = "2o2cqkLVx2bTctye3DRhrvDp6ag2";
 
-
 export const getMatches = async ()=>{
     const url = `https://cricapi.com/api/matches?apikey=${API_KEY}`;
     const response = await fetch(url);
@@ -8,8 +7,6 @@ export const getMatches = async ()=>{
     //console.log(data);
     return data;
 };
-
-
 
 //show match details
 export const getMatchDetails = async (id)=>{

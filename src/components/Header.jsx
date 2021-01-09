@@ -1,8 +1,9 @@
 import React from "react";
 
 function Header(){
-    return <Header>
-        <h1>Live Score App</h1>
-    </Header>
+    return <>
+        <h1 className="h1-header">CricScore</h1>
+    </>
 }
+
 export default Header;
