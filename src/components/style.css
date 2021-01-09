@@ -3,7 +3,6 @@
     text-align: center;
     margin: 20px;
     width: 30%;
-    height: 300px;
     color:#5B2C6F;
     background-color: #DDBBEB;
 }
@@ -13,6 +12,12 @@
     text-align: center;
 }
 
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
 .details{
     text-align: center;
     color: red;
